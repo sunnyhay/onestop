@@ -9,6 +9,8 @@ import ServicePage from "./service/Service";
 import StudyPage from "./study/Study";
 import WorkPage from "./work/Work";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <div className="container-fluid">

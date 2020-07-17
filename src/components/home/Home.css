@@ -1,1 +1,36 @@
-@import "~antd/dist/antd.css";
+/*@import "~antd/dist/antd.css";*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-block {
+  height: 32rem;
+  min-height: 18rem;
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+  max-width: 100rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.main-slide-window {
+  background-color: khaki;
+}
+
+.main-feature {
+  background-color: lightcoral;
+}
+
+.main-feature-item {
+  background-color: mediumblue;
+  margin: 15px;
+  padding: 10px;
+}
+
+.main-others {
+  background-color: grey;
+}
